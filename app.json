@@ -1,0 +1,38 @@
+{
+  "pages":[
+    "pages/timetable/timetable",
+    "pages/school/school",
+    "pages/me/me",
+    "pages/addclass/addclass",
+    "pages/logs/logs"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "课表",
+    "navigationBarTextStyle":"black"
+  },
+  "tabBar": {
+    "selectedColor": "#558eff",
+    "list": [{
+      "pagePath": "pages/school/school",
+      "text": "校园",
+      "iconPath": "/images/校园.png",
+      "selectedIconPath": "/images/校园-active.png"
+    },
+    {
+      "pagePath": "pages/timetable/timetable",
+      "text": "课表",
+      "iconPath": "/images/排课表.png",
+      "selectedIconPath": "/images/排课表-active.png"
+    },
+    {
+      "pagePath": "pages/me/me",
+      "text": "我的",
+      "iconPath": "/images/我的.png",
+      "selectedIconPath": "/images/我的-active.png"
+    }]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}
